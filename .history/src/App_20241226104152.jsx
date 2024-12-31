@@ -1,0 +1,26 @@
+import styled, { css } from 'styled-components'
+import GlobalStyles from './styles/GlobalStyled'
+import { BrowserRouter, Route, Routes } from 'react-router'
+
+import Dashboard from './pages/Dashboard'
+import Bookings from './pages/Bookings'
+import Cabins from './pages/Cabins'
+import Users from './pages/Users'
+import Settings from './pages/Settings'
+import Account from './pages/Account'
+import Login from './pages/Login'
+import PageNotFound from './pages/PageNotFound'
+function App() {
+  return (
+    <>
+      <GlobalStyles />
+      <BrowserRouter>
+        <Routes>
+          <Route></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
+  )
+}
+
+export default App
